@@ -1,0 +1,187 @@
+{
+  "schema": "3body.whole-book.cipher.v1",
+  "scope": "ten analytical motifs across the first novel only; original reading companion, not scene-by-scene substitute",
+  "title": "Three Suns / The Cipher Lens",
+  "literary_work": "The Three-Body Problem",
+  "author": "Liu Cixin",
+  "english_translation": "Ken Liu",
+  "copyright_boundary": "No novel text reproduced. Concepts are high-level original interpretation; use a purchased or library copy to read the book.",
+  "sources": [
+    {
+      "name": "Macmillan official synopsis",
+      "url": "https://us.macmillan.com/books/9780765377067/thethreebodyproblem/"
+    },
+    {
+      "name": "Macmillan publisher excerpt Chapter 1",
+      "url": "https://us.macmillan.com/books/9781250370600/thethreebodyproblem/"
+    }
+  ],
+  "cipher": {
+    "syntax": {
+      "globule": "@ = an actor / bounded system",
+      "motile": "() = motile response",
+      "defended": "[] = defended response",
+      "host": "{} = enclosing response",
+      "engulfment": "{]} = contested encounter / possible capture",
+      "nested": "{[()]} = nested interaction; stability must be demonstrated",
+      "homeostasis": "1:1 = balanced exchange",
+      "fight": "[n:n] = confrontation",
+      "flight": "(n:n) = retreat / movement",
+      "hide": "{n:n} = shelter / reduction of exposure"
+    },
+    "generations": {
+      "rank": "G",
+      "side": "10^G",
+      "power_envelope": "10^G by 10^G",
+      "promotion": "one continuing @ plus nine newly absorbed ordinary peers can advance; optional",
+      "perception": "available power does not determine willingness to fight"
+    },
+    "domains": {
+      "scalar_time": "x = seconds",
+      "scalar_angle": "y = arcseconds",
+      "spectral_mnemonic": "Sag A*/UV, hypothetical Nib Sun/IR, Sol/visible are a distinct authored mnemonic and are NOT the suns of the novel's Trisolaran system"
+    }
+  },
+  "acts": [
+    {
+      "id": "B01",
+      "name": "Authority and the witness",
+      "arc": "Cultural Revolution / opening",
+      "cipher": "[n:n] ↔ 1:1",
+      "globule": "CONFRONT",
+      "invariant": "POWER != TRUTH",
+      "question": "Can a collective override an independently testable result?",
+      "interpretation": "The opening reveals how social power can make truthful dissent dangerous. The observer's memory outlives the confrontation.",
+      "scene": "Two uneven groups and one unextinguished witness",
+      "color": "#f2ac84",
+      "source": "Historical conflict and Ye family's persecution"
+    },
+    {
+      "id": "B02",
+      "name": "Environmental homeostasis",
+      "arc": "Forests / degradation / loss",
+      "cipher": "{n:n} ↔ 1:1",
+      "globule": "SHELTER",
+      "invariant": "LOCAL_GAIN != ECOSYSTEM_BALANCE",
+      "question": "Can a society gain immediate power while exhausting the environment that sustains it?",
+      "interpretation": "Human-scale advantage can conceal system-scale costs. A globule might win its encounter yet destabilize its home.",
+      "scene": "A defended grove loses its outer ecological envelope",
+      "color": "#90e5c9",
+      "source": "Ye's environmental experiences and Silent Spring motif"
+    },
+    {
+      "id": "B03",
+      "name": "Signal beyond the envelope",
+      "arc": "Red Coast / first contact",
+      "cipher": "-+-----#-----@  →  ?",
+      "globule": "TRANSMIT",
+      "invariant": "SEND != RECEIVE != CONSENT",
+      "question": "Does a signal arriving elsewhere imply a safe or benevolent receiver?",
+      "interpretation": "A transmitted message exposes coordinates and intent. Communication is an irreversible choice under uncertain perception.",
+      "scene": "Antenna emits a pulse beyond its protective boundary",
+      "color": "#fdc68b",
+      "source": "Red Coast transmissions and the warning reply"
+    },
+    {
+      "id": "B04",
+      "name": "Perception under interference",
+      "arc": "Wang Miao / scientific uncertainty",
+      "cipher": "OBSERVE → VERIFY → REPEAT",
+      "globule": "DOUBT",
+      "invariant": "INSTRUMENT_OUTPUT != EXPLANATION",
+      "question": "If an observation appears impossible, should the observer immediately abandon the method?",
+      "interpretation": "Perceptual anomalies demand independent checks. An adversary can manipulate evidence without changing the underlying law.",
+      "scene": "A clocklike signal distorts while three observers compare records",
+      "color": "#b0a7ef",
+      "source": "Countdown, flickering sky and disrupted experiments"
+    },
+    {
+      "id": "B05",
+      "name": "Three bodies, unstable environment",
+      "arc": "Virtual game / Trisolaran climate",
+      "cipher": "() [] {}  /  1:1",
+      "globule": "ADAPT",
+      "invariant": "STABLE_INTERVAL != PERMANENT_HOMEOSTASIS",
+      "question": "Can a civilization remain adaptive when predictability disappears?",
+      "interpretation": "The virtual system explores survival across stable and chaotic eras. The globule's shell becomes a temporary adaptation, not a permanent guarantee.",
+      "scene": "Three suns move above a rotating cellular shelter",
+      "color": "#ffce92",
+      "source": "Three-Body game and unstable stellar cycles"
+    },
+    {
+      "id": "B06",
+      "name": "The limits of prediction",
+      "arc": "Mathematical and computational attempts",
+      "cipher": "... → .... / G→G+1",
+      "globule": "MODEL",
+      "invariant": "MORE_COMPUTATION != PERFECT_FORECAST",
+      "question": "Does a larger generational grid eliminate uncertainty in a dynamic system?",
+      "interpretation": "Power scales enlarge the search space without abolishing model uncertainty. Better simulations are not equivalent to exact universal prediction.",
+      "scene": "Nested computation grids accumulate while trajectories diverge",
+      "color": "#88d9e8",
+      "source": "Game-era calculations and attempts to model the three-sun problem"
+    },
+    {
+      "id": "B07",
+      "name": "The invitation and its factions",
+      "arc": "Human response / Earth–Trisolaris groups",
+      "cipher": "{]} → {[()]} ?",
+      "globule": "CHOOSE",
+      "invariant": "CAPTURE != SYMBIOSIS",
+      "question": "Does inviting a stronger civilization guarantee beneficial coexistence?",
+      "interpretation": "Different human groups project competing goals onto outsiders. Engulfment may lead to conflict, domination or cooperation, but none follows automatically.",
+      "scene": "Three bracket-envelopes negotiate an uncertain merger",
+      "color": "#eeb6da",
+      "source": "Ye, Evans and competing ETO factions"
+    },
+    {
+      "id": "B08",
+      "name": "The asymmetry of information",
+      "arc": "Listening / signals / distant threats",
+      "cipher": "10×10 ↔ 100×100",
+      "globule": "ASSESS",
+      "invariant": "PERCEIVED_POWER != VERIFIED_POWER",
+      "question": "What should a weaker actor do when the stronger actor's goals remain unknown?",
+      "interpretation": "Information can be as decisive as material power. A signal can disclose position, while a warning may create a chance to abstain.",
+      "scene": "Two globules view each other through an uncertain signal",
+      "color": "#a5a1ec",
+      "source": "Trisolaran communication and distant response"
+    },
+    {
+      "id": "B09",
+      "name": "Constraining the next generation",
+      "arc": "Sophons / scientific obstruction",
+      "cipher": "G → G? / [n:n]",
+      "globule": "BLOCK",
+      "invariant": "EVIDENCE_INTERFERENCE != FALSE_PHYSICS",
+      "question": "Can a civilization win strategically by limiting what its opponent can learn?",
+      "interpretation": "The fictional sophons make the scientific method itself a battlefield. The cipher describes blocked learning, not a verified particle-physics mechanism.",
+      "scene": "A moving interference sheet divides evidence packets",
+      "color": "#ffa897",
+      "source": "Sophons and the fictional disruption of particle accelerator observations"
+    },
+    {
+      "id": "B10",
+      "name": "Survival under superior power",
+      "arc": "Invasion horizon / resilience",
+      "cipher": "1:1 | (n:n) | {n:n}",
+      "globule": "PERSIST",
+      "invariant": "SMALLER != EXTINCT",
+      "question": "Does asymmetric power guarantee the disappearance of the smaller civilization?",
+      "interpretation": "The novel's ending invites an argument about persistence rather than power parity. An entity may survive through behavior, structure, memory and refusal to surrender.",
+      "scene": "A small globule continues through a vastly larger field",
+      "color": "#a8e8d4",
+      "source": "Shi Qiang's locust comparison and humanity's uncertain response"
+    }
+  ],
+  "provenance_constraints": [
+    "READING_COMPANION != NOVEL",
+    "POWER != TRUTH",
+    "CLAIM != INDEPENDENT_WITNESS",
+    "HIGHER_RANK != ABSOLUTE_STRENGTH",
+    "FICTIONAL_SOPHONS != OBSERVED_PHYSICS",
+    "TRISOLARAN_THREE_SUNS != SAG_A_NIB_SOL",
+    "PERCEPTION != PERFECT_KNOWLEDGE",
+    "SURVIVAL != OBLIGATION_TO_ATTACK"
+  ]
+}
