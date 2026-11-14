@@ -64,3 +64,23 @@ THREE_BODY_GRAVITY != THREE_BODY_MAGNETIC_CONTACT
 ## Status
 
 This is the **concept/spec layer**. The current `index.html` still simulates three gravitational centers; it does **not** yet implement core–mantle coupling, induction equations or magnetohydrodynamic feedback. Future dynamics must be validated against established geophysics before labeling them physical results.
+
+
+## v0.2 — Named parent systems and [?] reference center
+
+A: **Sagittarius A***, observed supermassive black hole at the Milky Way center, approximately four million solar masses. Not a star or rocky body.
+
+B: **Nib Sun**, user-proposed hypothetical star or substellar body; no astronomical detection or measured mass/orbit. NASA WISE places strong limits on a large local companion.
+
+C: **Sol**, the observed Sun, whose galactic trajectory is due to the galaxy's distributed gravitational potential (not just Sagittarius A* alone).
+
+The mathematical **restricted triple barycenter** `R=(mA*rA+mB*rB+mC*rC)/(mA+mB+mC)` is defined when masses/positions share one reference frame. It is not in general identical to the **Galactic dynamical center**, and a barycenter is not necessarily a gravitational source or a stable common orbital focus. The visual schematic `three-centers.html` uses arbitrary normalized weights [12,2,1] because no mass measurement exists for Nib Sun; it is not an ephemeris or N-body fit.
+
+**Layer correction:** stellar internal structure (core/radiative/convective zones) is not crust/mantle/core. A black hole has no material rock layers. A heliosphere is a stellar-wind bubble, not each planet's external ring. Ionospheric/magnetospheric layers apply conditionally to appropriate bodies.
+
+```
+NIB_SUN != OBSERVED_OBJECT
+TRIPLE_BARYCENTER != GALACTIC_DYNAMICAL_CENTER
+BARYCENTER_EXISTS != STABLE_CIRCULAR_ORBIT
+SCHEMATIC_MOTION != OBSERVED_ASTROMETRY
+```
