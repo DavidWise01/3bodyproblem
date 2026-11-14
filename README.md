@@ -98,3 +98,7 @@ A unit `@` absorbs **nine equal-rank peers**; its ten contributing units form a 
 
 ## S009 Highlander correction supersedes equal-rank merge
 The same original `@` survives every rank. It eats **nine additional ordinary peers per generation**, rather than merging with nine already-promoted peers. G1 = 9 absorbed + 1 seed, G2 = 18 absorbed + 1, G3 = 27 absorbed + 1. In general total units = `1 + 9*g + current_tier_absorptions`, while address power class side = `10^g`. [Interactive Highlander model](generation-engulf.html) · [v3 data](data/generation-power.json) · [spec](docs/generation-power.md).
+
+
+## S010 · Perception before warfare
+A `10×10` globule can recognize a `100×100` opponent as a risk; a larger opponent can refuse the cost of hunting smaller ones. Compare **optional nine ordinary-peer promotions** with the **different goal of aggregating 99 extra `10×10` peers**. Neither is compulsory. [Perception Canvas2D](perception-lab.html) · [structured choice model](data/perception-warfare.json) · [spec](docs/generation-power.md).
