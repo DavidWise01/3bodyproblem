@@ -182,6 +182,17 @@
     "FICTIONAL_SOPHONS != OBSERVED_PHYSICS",
     "TRISOLARAN_THREE_SUNS != SAG_A_NIB_SOL",
     "PERCEPTION != PERFECT_KNOWLEDGE",
-    "SURVIVAL != OBLIGATION_TO_ATTACK"
+    "SURVIVAL != OBLIGATION_TO_ATTACK",
+    "OBSERVATION != DISCLOSURE",
+    "RECEIVED_WARNING != VERIFIED_WARNING"
+  ],
+  "extensions": [
+    {
+      "id": "B011",
+      "title": "The Cost of Knowing",
+      "url": "b011-cost-of-knowing.html",
+      "json": "data/b011-cost-of-knowing.json",
+      "invariant": "OBSERVATION != DISCLOSURE"
+    }
   ]
 }
