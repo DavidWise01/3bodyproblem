@@ -1,0 +1,74 @@
+{
+  "schema": "3body.chapter1.perception.v1",
+  "novel": "The Three-Body Problem",
+  "author": "Liu Cixin",
+  "translation": "Ken Liu",
+  "chapter": "1 — The Madness Years",
+  "historical_setting": "China, 1967, Cultural Revolution",
+  "work_type": "original analytical reading companion; no reproduction of novel's scenes, text or dialogue",
+  "source_links": [
+    "https://us.macmillan.com/books/9781427251992/thethreebodyproblem/",
+    "https://www.litcharts.com/lit/the-three-body-problem/chapter-1-the-madness-years"
+  ],
+  "stages": [
+    {
+      "code": "C1-01",
+      "name": "Factional standoff",
+      "category": "COLLECTIVE POWER",
+      "motif": "Two groups see themselves as justified, but neither possesses a reliable view of the other's willingness to escalate.",
+      "observed": "Rival Red Guard factions enter violent conflict in 1967.",
+      "model": "[n:n] vs [n:n]",
+      "principle": "PERCEIVED_POWER != JUSTIFIED_ACTION",
+      "color": "#f1ab83",
+      "question": "Does having more members tell us that the larger group is right?"
+    },
+    {
+      "code": "C1-02",
+      "name": "The science dispute",
+      "category": "TRUTH / AUTHORITY",
+      "motif": "A physics claim and an authority's permission to teach it are not the same kind of evidence.",
+      "observed": "Professor Ye Zhetai is denounced amid political attacks on academics.",
+      "model": "1:1 vs [n:n]",
+      "principle": "SOCIAL_POWER != SCIENTIFIC_TRUTH",
+      "color": "#8ee6d8",
+      "question": "Can a crowd's force settle an empirical scientific question?"
+    },
+    {
+      "code": "C1-03",
+      "name": "The surviving witness",
+      "category": "MEMORY / PERCEPTION",
+      "motif": "An observer carries evidence of asymmetry and betrayal into later risk assessments.",
+      "observed": "Ye Wenjie witnesses her father's persecution and death.",
+      "model": "OBSERVE → MEMORY → DECISION",
+      "principle": "TRAUMA_EXPLAINS != TRAUMA_PROVES",
+      "color": "#c2abe9",
+      "question": "Does a painful observation establish that everyone will act the same way?"
+    },
+    {
+      "code": "C1-04",
+      "name": "The homeostasis question",
+      "category": "POLICY / AGENCY",
+      "motif": "A sound system needs a way to decline engagement, preserve evidence, and test claims independently of force.",
+      "observed": "The chapter contrasts coercive belief enforcement with scientific reasoning.",
+      "model": "1:1 / [n:n] / (n:n) / {n:n}",
+      "principle": "CAPABILITY != OBLIGATION",
+      "color": "#ffd08c",
+      "question": "What if the group could choose non-escalation rather than treating every difference as war?"
+    }
+  ],
+  "layer_model": {
+    "semantic": "What claim is made; can it be checked independently?",
+    "somatic": "Who is physically threatened and what actions are possible?",
+    "linear": "Which observations occur and how does memory persist across time?",
+    "perception": "Power estimates may influence decisions without establishing truth.",
+    "generational": "Collective and individual ranks are illustrative labels, not a literal census or physical force ratio."
+  },
+  "witness_rules": [
+    "SOURCE_EVENT != UNIVERSAL_CONCLUSION",
+    "POWER != TRUTH",
+    "SAME_EVENT != THREE_INDEPENDENT_WITNESSES",
+    "OBSERVATION != INTERPRETATION",
+    "SIMULATED_GLOBULES != HISTORICAL_PEOPLE"
+  ],
+  "safety_and_accuracy": "Canvas visuals use abstract marks rather than depict human injury; no actual historical crowd sizes or combat power values are inferred."
+}
