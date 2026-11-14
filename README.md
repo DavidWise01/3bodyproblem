@@ -41,3 +41,7 @@ INVARIANT_CHECK != COMPLETE_VALIDATION
 Open `index.html` or enable GitHub Pages from `main`, root. Select scenes; use the PHYSICS tab to run the integrator; use WITNESS to record answers and export JSON. No build step or third-party JS required.
 
 References: [Publisher](https://us.macmillan.com/books/9780765377067/thethreebodyproblem/), [Three-body research](https://www.nature.com/articles/s41586-019-1833-8).
+
+
+## Nested geophysical gyro interpretation
+See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-defined `{{3x3}}^{{3}}` layering, explicit heliosphere caveats, and a staged coupling model. The present gravity simulator does not yet implement geophysical layer dynamics.
