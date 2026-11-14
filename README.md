@@ -78,3 +78,7 @@ The [Canvas2D scalar field](scalar-scale.html) includes four selectable forms: `
 
 ## S004 · twenty amino-interval string
 The [interactive string-tape Canvas2D lab](string-tape.html) implements the author's exact `-+...#...@` tape: **21 @ markers frame 20 intervals**, with hyphen gap lengths **1–20**, sum 210. An authored label set maps the intervals to the twenty standard amino acids without mistaking the mapping for a protein sequence or physical string theory. [Data](data/string-tape.json) · [Specification](docs/string-tape.md).
+
+
+## S005 · Globule ontology and boundary stress
+The `@` marks are **globules** (21 entities), not merely separators. Gap lengths 1–20 encode successive *size ranks* of globules G1–G20 from seed G0; the old 20 amino labels attach to growth transitions, not globule identities. The contained `{[()]}` and deliberately interrupted `{[(]}` are selectable symbolic boundary states. [Canvas2D globule lab](globule-lab.html) · [revised source tape model](data/string-tape.json) · [spec](docs/string-tape.md). Cellular warfare here is an abstract stress model, not established biological behavior.
