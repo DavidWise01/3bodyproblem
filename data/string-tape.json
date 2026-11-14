@@ -1,0 +1,220 @@
+{
+  "schema": "3body.string-tape.v1",
+  "source": "user-authored exact ASCII tape",
+  "literal": "-+---------------#-------------@-@--@---@----@-----@------@-------@--------@---------@----------@-----------@------------@-------------@--------------@---------------@----------------@-----------------@------------------@-------------------@--------------------@",
+  "length": 262,
+  "prefix": "-+---------------#-------------",
+  "operators": {
+    "minus": "literal connecting symbol",
+    "plus": "literal prefix operator",
+    "hash": "literal root boundary (semantic role provisional)",
+    "at": "segment boundary marker"
+  },
+  "counts": {
+    "at": 21,
+    "hash": 1,
+    "plus": 1,
+    "minus": 239,
+    "segments": 20,
+    "interval_hyphens": 210
+  },
+  "starts_zero_based": [
+    31,
+    33,
+    36,
+    40,
+    45,
+    51,
+    58,
+    66,
+    75,
+    85,
+    96,
+    108,
+    121,
+    135,
+    150,
+    166,
+    183,
+    201,
+    220,
+    240,
+    261
+  ],
+  "segments": [
+    {
+      "ordinal": 1,
+      "begin_marker_at_zero_based": 31,
+      "end_marker_at_zero_based": 33,
+      "hyphens": 1,
+      "amino_one_letter": "A",
+      "amino_name": "Alanine"
+    },
+    {
+      "ordinal": 2,
+      "begin_marker_at_zero_based": 33,
+      "end_marker_at_zero_based": 36,
+      "hyphens": 2,
+      "amino_one_letter": "R",
+      "amino_name": "Arginine"
+    },
+    {
+      "ordinal": 3,
+      "begin_marker_at_zero_based": 36,
+      "end_marker_at_zero_based": 40,
+      "hyphens": 3,
+      "amino_one_letter": "N",
+      "amino_name": "Asparagine"
+    },
+    {
+      "ordinal": 4,
+      "begin_marker_at_zero_based": 40,
+      "end_marker_at_zero_based": 45,
+      "hyphens": 4,
+      "amino_one_letter": "D",
+      "amino_name": "Aspartic acid"
+    },
+    {
+      "ordinal": 5,
+      "begin_marker_at_zero_based": 45,
+      "end_marker_at_zero_based": 51,
+      "hyphens": 5,
+      "amino_one_letter": "C",
+      "amino_name": "Cysteine"
+    },
+    {
+      "ordinal": 6,
+      "begin_marker_at_zero_based": 51,
+      "end_marker_at_zero_based": 58,
+      "hyphens": 6,
+      "amino_one_letter": "Q",
+      "amino_name": "Glutamine"
+    },
+    {
+      "ordinal": 7,
+      "begin_marker_at_zero_based": 58,
+      "end_marker_at_zero_based": 66,
+      "hyphens": 7,
+      "amino_one_letter": "E",
+      "amino_name": "Glutamic acid"
+    },
+    {
+      "ordinal": 8,
+      "begin_marker_at_zero_based": 66,
+      "end_marker_at_zero_based": 75,
+      "hyphens": 8,
+      "amino_one_letter": "G",
+      "amino_name": "Glycine"
+    },
+    {
+      "ordinal": 9,
+      "begin_marker_at_zero_based": 75,
+      "end_marker_at_zero_based": 85,
+      "hyphens": 9,
+      "amino_one_letter": "H",
+      "amino_name": "Histidine"
+    },
+    {
+      "ordinal": 10,
+      "begin_marker_at_zero_based": 85,
+      "end_marker_at_zero_based": 96,
+      "hyphens": 10,
+      "amino_one_letter": "I",
+      "amino_name": "Isoleucine"
+    },
+    {
+      "ordinal": 11,
+      "begin_marker_at_zero_based": 96,
+      "end_marker_at_zero_based": 108,
+      "hyphens": 11,
+      "amino_one_letter": "L",
+      "amino_name": "Leucine"
+    },
+    {
+      "ordinal": 12,
+      "begin_marker_at_zero_based": 108,
+      "end_marker_at_zero_based": 121,
+      "hyphens": 12,
+      "amino_one_letter": "K",
+      "amino_name": "Lysine"
+    },
+    {
+      "ordinal": 13,
+      "begin_marker_at_zero_based": 121,
+      "end_marker_at_zero_based": 135,
+      "hyphens": 13,
+      "amino_one_letter": "M",
+      "amino_name": "Methionine"
+    },
+    {
+      "ordinal": 14,
+      "begin_marker_at_zero_based": 135,
+      "end_marker_at_zero_based": 150,
+      "hyphens": 14,
+      "amino_one_letter": "F",
+      "amino_name": "Phenylalanine"
+    },
+    {
+      "ordinal": 15,
+      "begin_marker_at_zero_based": 150,
+      "end_marker_at_zero_based": 166,
+      "hyphens": 15,
+      "amino_one_letter": "P",
+      "amino_name": "Proline"
+    },
+    {
+      "ordinal": 16,
+      "begin_marker_at_zero_based": 166,
+      "end_marker_at_zero_based": 183,
+      "hyphens": 16,
+      "amino_one_letter": "S",
+      "amino_name": "Serine"
+    },
+    {
+      "ordinal": 17,
+      "begin_marker_at_zero_based": 183,
+      "end_marker_at_zero_based": 201,
+      "hyphens": 17,
+      "amino_one_letter": "T",
+      "amino_name": "Threonine"
+    },
+    {
+      "ordinal": 18,
+      "begin_marker_at_zero_based": 201,
+      "end_marker_at_zero_based": 220,
+      "hyphens": 18,
+      "amino_one_letter": "W",
+      "amino_name": "Tryptophan"
+    },
+    {
+      "ordinal": 19,
+      "begin_marker_at_zero_based": 220,
+      "end_marker_at_zero_based": 240,
+      "hyphens": 19,
+      "amino_one_letter": "Y",
+      "amino_name": "Tyrosine"
+    },
+    {
+      "ordinal": 20,
+      "begin_marker_at_zero_based": 240,
+      "end_marker_at_zero_based": 261,
+      "hyphens": 20,
+      "amino_one_letter": "V",
+      "amino_name": "Valine"
+    }
+  ],
+  "biological_note": "The amino mapping is an ordered mnemonic assignment for 20 canonical amino acids, not a decoded protein, genetic code, protein folding prediction, or established string-theory physics.",
+  "coordinate_contract": {
+    "x": "seconds (horizontal)",
+    "y": "arcseconds (vertical)",
+    "address_registry": "scalar 0 + 1–368 is a separate index space; no numerical alignment yet specified"
+  },
+  "invariants": [
+    "21_AT_MARKERS = 20_INTERVALS",
+    "SUM_1_TO_20 = 210",
+    "LITERAL_STRING != AMINO_ACID_SEQUENCE",
+    "ASCII_ENCODING != PHYSICAL_STRING_THEORY",
+    "AMINO_MNEMONIC != PROTEIN_FUNCTION",
+    "SOURCE_TAPE != INDEPENDENT_BIOLOGICAL_WITNESS"
+  ]
+}
