@@ -1,0 +1,59 @@
+{
+  "schema": "3body.three-centers.v0.1",
+  "notation": "{{3x3}}^{{3}}>1 × 3 bodies",
+  "parents": [
+    {
+      "id": "A",
+      "name": "Sagittarius A*",
+      "status": "observed",
+      "kind": "supermassive black hole",
+      "mass_solar_approx": 4000000,
+      "interior": "black-hole spacetime, not rocky core/mantle/crust",
+      "environment": "galactic-center plasma and accretion environment"
+    },
+    {
+      "id": "B",
+      "name": "Nib Sun",
+      "status": "hypothetical / no verified detection",
+      "kind": "parameterized stellar or substellar candidate",
+      "mass_solar_approx": null,
+      "interior": "unspecified; depends on physical type",
+      "environment": "hypothetical wind or magnetized environment"
+    },
+    {
+      "id": "C",
+      "name": "Sol / Earth's Sun",
+      "status": "observed",
+      "kind": "G-type star",
+      "mass_solar_approx": 1,
+      "interior": "core, radiative zone, convective zone",
+      "environment": "corona, stellar wind, heliosphere"
+    }
+  ],
+  "center": {
+    "unknown": "[?]",
+    "restricted_barycenter": "R=(mA*rA+mB*rB+mC*rC)/(mA+mB+mC)",
+    "galactic_center": "Distributed Milky Way gravitational potential; near Sagittarius A* but not necessarily identical to restricted three-body barycenter",
+    "not_a_fourth_body": true
+  },
+  "toy_weights": [
+    12,
+    2,
+    1
+  ],
+  "toy_units_only": true,
+  "notes": "Illustrative coordinates and weights are not measured orbits, nor a verified Nib Sun detection.",
+  "invariants": [
+    "NIB_SUN != DETECTED",
+    "BARYCENTER_EXISTS != STABLE_ORBIT",
+    "THREE_OBJECT_BARYCENTER != GALACTIC_DYNAMICAL_CENTER",
+    "SAG_A_STAR != NORMAL_STAR",
+    "SOLAR_HELIOSPHERE != PLANETARY_SHELL",
+    "SCHEMATIC_MOTION != REAL_ASTROMETRY"
+  ],
+  "sources": [
+    "https://science.nasa.gov/mission/webb/science-overview/science-explainers/what-is-the-center-of-our-galaxy-like/",
+    "https://www.nasa.gov/news-release/nasas-wise-survey-finds-thousands-of-new-stars-but-no-planet-x/",
+    "https://www.pbs.org/video/how-does-the-earth-really-move-through-the-galaxy-qnyvha/"
+  ]
+}
