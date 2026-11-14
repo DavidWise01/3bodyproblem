@@ -110,3 +110,7 @@ A `10×10` globule can recognize a `100×100` opponent as a risk; a larger oppon
 
 ## Whole-book cipher lens (10 thematic stations)
 [Whole-Book Cipher Canvas2D Companion](whole-book-cipher.html) · [10-station structured JSON](data/whole-book-cipher.json). Original analytic motifs across the entire first novel: authority vs truth, environmental homeostasis, signal risk, false perception, instability, prediction limits, factions, information asymmetry, scientific interference, and resilient survival. Each is interpreted with `@`, `()`, `[]`, `{}`, `1:1`, `[n:n]`, `(n:n)`, `{n:n}`, `G`, and evidence lineage. **Not a reproduction or comprehensive retelling.** The novel's Trisolaran triple-star system is distinct from the author's separate Sag A* / Nib Sun / Sol mnemonic.
+
+
+## B011 — The Cost of Knowing
+[Original Canvas2D signal-risk scene](b011-cost-of-knowing.html) · [cipher JSON](data/b011-cost-of-knowing.json). The symbolic globule can observe, listen, transmit, receive a warning or decline contact. Exposure tracking distinguishes deliberate transmission from passive observation; the toy score is NOT an empirical probability. Witness records are local and exportable.
