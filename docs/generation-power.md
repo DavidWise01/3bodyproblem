@@ -103,3 +103,30 @@ The difference between **power class**, **accumulated units**, **physical mass**
 A monotonically appended event log should record each absorption with the current survivor identity and generation. Promotion occurs only after the ninth new absorption in that tier. This is a deterministic toy rule, not an assertion that organisms literally operate by this mechanism.
 
 **S009 invariant:** `SAME_SURVIVOR + NINE_NEW_PEERS -> NEXT_POWER`.
+
+
+## S010 — Perception, unequal power, and the freedom not to fight
+
+**Correction:** A globule's generational power changes its *perception and decision context*, not merely the radius of its rendering. For example, an entity ranked `10×10` may recognize a `100×100` opponent as a severe asymmetric risk and elect to flee, hide, or remain homeostatic instead of fighting. Conversely, a `100×100` entity need not chase smaller peers if the energy, risk and effort outweigh the expected reward.
+
+```text
+  @ 10×10  →  OBSERVE  →  @ 100×100
+                  |
+          ESTIMATE POWER / RISK
+                  |
+          EVALUATE MOTIVATION
+                  |
+    1:1 | [n:n] | (n:n) | {n:n}
+  BALANCE  FIGHT   FLIGHT   HIDE
+                  |
+          OPTIONAL INTERACTION
+```
+
+Keep two different meanings of power accumulation apart:
+
+1. **S009 promotion** uses **nine additional ordinary peers per rank**; generation G2 has 18 total absorbed ordinary peer-equivalents. Power envelope changes according to `10^g × 10^g`.
+2. **Aggregation of 100 equal-sized units** starting with one `10×10` requires **99 additional `10×10` units**. That is not the S009 promotion rule and is not automatically chosen merely because it is mathematically possible.
+
+The controller in `perception-lab.html` is a transparent illustrative decision aid with adjustable opponent rank, energy and appetite for growth. Its output is a **proposed policy**; actual organisms, predation, mitochondrial endosymbiosis and physical strength ratios are not validated by the address scale. In particular, the 10× linear-side or 100× address-capacity disparity does not prove a 10× or 100× combat advantage.
+
+**Invariant:** `CAPABILITY != MOTIVATION != CHOICE` and `PERCEPTION != PERFECT INFORMATION`.
