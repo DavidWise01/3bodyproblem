@@ -1,5 +1,5 @@
 {
-  "schema": "3body.generational-power.v2",
+  "schema": "3body.generational-power.v3",
   "status": "mathematical address capacity, not realized biological growth",
   "alpha": {
     "generation": 0,
@@ -87,53 +87,79 @@
     "HIGHER_DIMENSION != INDEPENDENT_WITNESS",
     "GROWTH != HOMEOSTASIS",
     "PARENT_ADDRESS_PRESERVED_UNDER_NESTING",
-    "SELF_PLUS_9_PEERS == 10_TOTAL_UNITS",
     "SQUARE_ADDRESS_CAPACITY != ABSORBED_CELL_COUNT",
-    "PROMOTION_CONSERVES_BASE_UNIT_ACCOUNTING",
-    "NINE_EATEN != NINETY_NINE_CREATED"
+    "NINE_EATEN != NINETY_NINE_CREATED",
+    "NINE_NEW_CONSUMPTIONS_PER_PROMOTION",
+    "ONE_PERSISTENT_SURVIVOR_IDENTITY",
+    "TOTAL_G0_EQUIVALENTS = 1 + 9*GENERATION + CURRENT_EATEN",
+    "POWER_SIDE = 10^GENERATION",
+    "POWER_CAPACITY != CUMULATIVE_KILLS"
   ],
   "promotion": {
-    "name": "eat nine / retain one seed",
-    "threshold": 10,
-    "peer_absorptions_required": 9,
-    "definition": "A rank-g unit can be promoted to rank g+1 by aggregating ten rank-g equivalent units: self plus nine peers",
-    "equal_rank_only": true,
-    "required_base_units_at_rank_g": "10^g",
-    "absorption_cost_per_promotion": "9 peers of equal rank",
-    "mass_or_count_accounting": "10 rank-g units become one rank-(g+1) aggregate; number of underlying rank-0 units is conserved if no losses",
-    "address_interpretation": "10x10 at generation 1 is a power-capacity address envelope of 100 positions, not 100 physical units created from ten",
-    "rank_to_square_envelope": [
+    "name": "Highlander survivor accumulates nine more challengers per generation",
+    "unit": "one unpromoted rank-zero peer-equivalent",
+    "threshold_per_generation": 9,
+    "starting_survivors": 1,
+    "rule": "A persistent original @ advances one generation each time it accumulates nine additional absorbed peer-equivalents since the last promotion.",
+    "same_rank_required": false,
+    "individual_identity_persists": true,
+    "absorbed_peer_equivalents_at_generation": "9*g",
+    "total_units_at_generation": "1+9*g",
+    "power_side_at_generation": "10^g",
+    "square_address_capacity_at_generation": "10^(2*g)",
+    "growth_note": "Generation promotion alters power classification superlinearly without creating physical units.",
+    "stages": [
       {
         "generation": 0,
-        "underlying_seeds": 1,
-        "square_side": 1,
+        "additional_eaten": 0,
+        "total_underlying_units": 1,
+        "power_side": 1,
         "square_capacity": 1
       },
       {
         "generation": 1,
-        "underlying_seeds": 10,
-        "square_side": 10,
+        "additional_eaten": 9,
+        "total_underlying_units": 10,
+        "power_side": 10,
         "square_capacity": 100
       },
       {
         "generation": 2,
-        "underlying_seeds": 100,
-        "square_side": 100,
+        "additional_eaten": 18,
+        "total_underlying_units": 19,
+        "power_side": 100,
         "square_capacity": 10000
       },
       {
         "generation": 3,
-        "underlying_seeds": 1000,
-        "square_side": 1000,
+        "additional_eaten": 27,
+        "total_underlying_units": 28,
+        "power_side": 1000,
         "square_capacity": 1000000
+      },
+      {
+        "generation": 4,
+        "additional_eaten": 36,
+        "total_underlying_units": 37,
+        "power_side": 10000,
+        "square_capacity": 100000000
+      },
+      {
+        "generation": 5,
+        "additional_eaten": 45,
+        "total_underlying_units": 46,
+        "power_side": 100000,
+        "square_capacity": 10000000000
+      },
+      {
+        "generation": 6,
+        "additional_eaten": 54,
+        "total_underlying_units": 55,
+        "power_side": 1000000,
+        "square_capacity": 1000000000000
       }
     ],
-    "kinetic_modes": [
-      "engulf",
-      "retain",
-      "digest",
-      "symbiosis"
-    ],
-    "warning": "Eating is a symbolic merge operator; energy balance, physical mass, real cellular digestion and biological viability are not specified."
+    "status": "authored symbolic promotion logic; not measured cellular energetics or the plot rules of Highlander",
+    "lineage": "same original globule @ remains survivor through all promotions; retain an append-only victory ledger"
   }
 }
