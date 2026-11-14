@@ -15,7 +15,8 @@
       "end": 122,
       "count": 122,
       "status": "observed black hole / address assignment authored by user",
-      "color": "#ffb979"
+      "color": "#a88af9",
+      "spectral_mnemonic": "ultraviolet"
     },
     {
       "id": "B",
@@ -24,7 +25,8 @@
       "end": 245,
       "count": 123,
       "status": "hypothetical object / no verified detection",
-      "color": "#d5adef"
+      "color": "#f08168",
+      "spectral_mnemonic": "infrared"
     },
     {
       "id": "C",
@@ -33,7 +35,8 @@
       "end": 368,
       "count": 123,
       "status": "observed star / address assignment authored by user",
-      "color": "#8de9d9"
+      "color": "#ffd07d",
+      "spectral_mnemonic": "visible"
     }
   ],
   "lookup": "address 0 -> scalar root; 1..122 -> A; 123..245 -> B; 246..368 -> C; otherwise invalid",
@@ -56,5 +59,11 @@
     "THREE_PARTITIONS != THREE_INDEPENDENT_WITNESSES",
     "NIB_SUN != OBSERVED_OBJECT",
     "MODEL_CENTER != VERIFIED_GRAVITATIONAL_CENTER"
+  ],
+  "scale_ref": "data/scalar0-multiscale.json",
+  "scale_ratio": [
+    13800000000,
+    76000,
+    1
   ]
 }
