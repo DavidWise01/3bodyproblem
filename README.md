@@ -45,3 +45,7 @@ References: [Publisher](https://us.macmillan.com/books/9780765377067/thethreebod
 
 ## Nested geophysical gyro interpretation
 See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-defined `{{3x3}}^{{3}}` layering, explicit heliosphere caveats, and a staged coupling model. The present gravity simulator does not yet implement geophysical layer dynamics.
+
+
+## Named three-parent system
+[Three-centers visual schematic](three-centers.html) and [source-status JSON](data/three-centers.json) specify Sagittarius A*, hypothetical Nib Sun and Sol with candidate [?] barycenter, separate from actual Milky Way dynamics. The original gravity simulator is unchanged.
