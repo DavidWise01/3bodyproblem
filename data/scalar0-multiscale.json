@@ -1,5 +1,5 @@
 {
-  "schema": "3body.scalar0.multiscale.v2",
+  "schema": "3body.scalar0.multiscale.v3",
   "root": 0,
   "ratio": {
     "outer": 13800000000,
@@ -92,5 +92,83 @@
     "definition": "theta(t)=76000*(t/76000)=t arcseconds",
     "angular_velocity_arcsec_per_second": 1,
     "not_observation": true
+  },
+  "graph_modes": {
+    "status": "user-defined four symbol patterns, interpreted as display topology only",
+    "selected_default": 0,
+    "options": [
+      {
+        "id": 0,
+        "name": "Scalar 0",
+        "glyph": "--------",
+        "marks": [],
+        "meaning": "continuous unmarked carrier",
+        "anchors": []
+      },
+      {
+        "id": 1,
+        "name": "Scalar 1",
+        "glyph": "@",
+        "marks": [
+          "@"
+        ],
+        "meaning": "one user-defined anchor",
+        "anchors": [
+          {
+            "symbol": "@",
+            "t": 1,
+            "angle": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Scalar 2",
+        "glyph": "-@",
+        "marks": [
+          "@"
+        ],
+        "meaning": "directed approach to an anchor; hyphen preserved as a topological stroke",
+        "anchors": [
+          {
+            "symbol": "@",
+            "t": 76000,
+            "angle": 76000
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Scalar 3",
+        "glyph": "--@--#",
+        "marks": [
+          "@",
+          "#"
+        ],
+        "meaning": "anchor followed by a distinct terminal witness/checkpoint marker",
+        "anchors": [
+          {
+            "symbol": "@",
+            "t": 76000,
+            "angle": 76000
+          },
+          {
+            "symbol": "#",
+            "t": 13800000000,
+            "angle": 13800000000
+          }
+        ]
+      }
+    ],
+    "display_axes": {
+      "horizontal": "seconds",
+      "vertical": "arcseconds"
+    },
+    "glyph_semantics": {
+      "hyphen": "connecting stroke",
+      "at": "anchor marker",
+      "hash": "distinct terminal/checkpoint marker; not a verified independent witness"
+    },
+    "warning": "Anchor positions are illustrative markers; no physically measured coupling or orbital meaning is assigned."
   }
 }
