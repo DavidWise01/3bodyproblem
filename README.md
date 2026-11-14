@@ -74,3 +74,7 @@ See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-
 
 ## Scalar graph forms (v3)
 The [Canvas2D scalar field](scalar-scale.html) includes four selectable forms: `Scalar 0 --------`, `Scalar 1 @`, `Scalar 2 -@`, and `Scalar 3 --@--#`. These are exact user-given glyphs with provisional topology meanings; the axes remain seconds (horizontal) and arcseconds (vertical), with the 13.8B:76,000:1 reference scale.
+
+
+## S004 · twenty amino-interval string
+The [interactive string-tape Canvas2D lab](string-tape.html) implements the author's exact `-+...#...@` tape: **21 @ markers frame 20 intervals**, with hyphen gap lengths **1–20**, sum 210. An authored label set maps the intervals to the twenty standard amino acids without mistaking the mapping for a protein sequence or physical string theory. [Data](data/string-tape.json) · [Specification](docs/string-tape.md).
