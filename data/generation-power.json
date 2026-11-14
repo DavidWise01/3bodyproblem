@@ -1,5 +1,5 @@
 {
-  "schema": "3body.generational-power.v3",
+  "schema": "3body.generational-power.v4",
   "status": "mathematical address capacity, not realized biological growth",
   "alpha": {
     "generation": 0,
@@ -93,7 +93,11 @@
     "ONE_PERSISTENT_SURVIVOR_IDENTITY",
     "TOTAL_G0_EQUIVALENTS = 1 + 9*GENERATION + CURRENT_EATEN",
     "POWER_SIDE = 10^GENERATION",
-    "POWER_CAPACITY != CUMULATIVE_KILLS"
+    "POWER_CAPACITY != CUMULATIVE_KILLS",
+    "POWER_CLASS != OBLIGATION_TO_CONSUME",
+    "NINE_PROMOTION_PEERS != NINETY_NINE_EQUAL_RANK_AGGREGATION",
+    "PERCEIVED_THREAT != TRUE_CAPABILITY",
+    "COSTLY_CONQUEST != BENEFICIAL_CONQUEST"
   ],
   "promotion": {
     "name": "Highlander survivor accumulates nine more challengers per generation",
@@ -161,5 +165,51 @@
     ],
     "status": "authored symbolic promotion logic; not measured cellular energetics or the plot rules of Highlander",
     "lineage": "same original globule @ remains survivor through all promotions; retain an append-only victory ledger"
+  },
+  "perception": {
+    "schema": "3body.perception.v1",
+    "meaning": "Perception supplies evidence for an optional choice, not an obligatory action",
+    "inputs": [
+      "own_power_rank",
+      "other_power_rank_estimate",
+      "relative_power",
+      "expected_effort",
+      "expected_reward",
+      "threat_level",
+      "energy_reserve",
+      "homeostasis_status"
+    ],
+    "available_actions": [
+      "balance",
+      "fight",
+      "flight",
+      "hide",
+      "approach",
+      "disengage"
+    ],
+    "principles": [
+      "PERCEPTION_BEFORE_ACTION",
+      "POWER_DOES_NOT_REQUIRE_ATTACK",
+      "PROMOTION_IS_OPTIONAL",
+      "LOWER_RANK_CAN_REFUSE_LOPSIDED_BATTLE",
+      "LARGER_RANK_CAN_REFUSE_UNPROFITABLE_HUNT",
+      "UNSURE_ESTIMATE_NOT_CERTAIN_OBSERVATION"
+    ],
+    "rank_model": {
+      "linear_power_side": "10^generation",
+      "two_dimensional_power_envelope": "10^(2*generation)",
+      "relative_rank_multiplier": "10^(target_generation - own_generation) for linear side; NOT biological strength measurement"
+    },
+    "objectives": {
+      "promotion": "nine additional ordinary peers under current S009 rule",
+      "equal_rank_aggregation": "one original 10x10 aggregate plus 99 other 10x10 aggregates would be 100 such units for a 100-fold aggregate, NOT the same as S009 promotion",
+      "motivations": "No hard-coded need for power escalation; perception can favor staying at 1:1."
+    },
+    "simulation_parameters": {
+      "risk_threshold": "illustrative customizable controller",
+      "cost_per_encounter": "illustrative normalized points",
+      "value_of_growth": "user preference; may be zero",
+      "uncertainty": "opponent power is an estimate, not direct ground truth"
+    }
   }
 }
