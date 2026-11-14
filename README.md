@@ -86,3 +86,7 @@ The `@` marks are **globules** (21 entities), not merely separators. Gap lengths
 
 ## S006 · Homeostasis control grammar
 **`1:1` is balanced exchange**, with stress responses **fight `[n:n]`**, **flight `(n:n)`**, and **hide `{n:n}`**. These are authored symbolic states, not observations of cells. Run the [Canvas2D homeostasis lab](homeostasis-lab.html) with automatic or manual controls, state trace and exported witness data. [Model JSON](data/homeostasis.json) · [Spec](docs/string-tape.md).
+
+
+## S007 · Dot order and generational power limits
+Four address orders `. .. ... ....` represent 1D through 4D symbolic grids, while generations increase each side length by a factor of ten: `L=10^g`, capacity `N=10^(g*d)`. Alpha is G0 (one address); Omega is the formal unbounded limit, not an allocated infinity. This models capacity independently of living globule count, homeostasis, and the physical sky. [Interactive Canvas2D](generation-power.html) · [data](data/generation-power.json) · [spec](docs/generation-power.md).
