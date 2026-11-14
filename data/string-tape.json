@@ -233,7 +233,7 @@
       "breach_balanced": false,
       "breach_interpretation": "missing ) relative to contained configuration; unbalanced token, not physically validated membrane rupture"
     },
-    "cellular_warfare": "abstract adversarial stress/defense interaction among symbolic globules; not a known biochemical process or evidence of biological combat",
+    "cellular_warfare": "A homeostatic response grammar: external pressure can trigger fight, flight or hide. Abstract control simulation only; not verified cell biology.",
     "state_machine": [
       "contained",
       "pressured",
@@ -247,7 +247,13 @@
       "BRACKET_BREACH != PROVEN_CELL_MEMBRANE_DAMAGE",
       "AA_LABELS != MOLECULAR_COMPOSITION",
       "MODEL_WARFARE != OBSERVED_BIOLOGY"
-    ]
+    ],
+    "homeostasis": "1:1",
+    "response_states": {
+      "fight": "[n:n]",
+      "flight": "(n:n)",
+      "hide": "{n:n}"
+    }
   },
   "globules": [
     {
@@ -561,5 +567,6 @@
       "size_step": 20,
       "amino_mnemonic": "Valine"
     }
-  ]
+  ],
+  "homeostasis_ref": "data/homeostasis.json"
 }
