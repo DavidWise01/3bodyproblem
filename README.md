@@ -102,3 +102,7 @@ The same original `@` survives every rank. It eats **nine additional ordinary pe
 
 ## S010 · Perception before warfare
 A `10×10` globule can recognize a `100×100` opponent as a risk; a larger opponent can refuse the cost of hunting smaller ones. Compare **optional nine ordinary-peer promotions** with the **different goal of aggregating 99 extra `10×10` peers**. Neither is compulsory. [Perception Canvas2D](perception-lab.html) · [structured choice model](data/perception-warfare.json) · [spec](docs/generation-power.md).
+
+
+## Chapter 1 · The Madness Years — perception companion
+[Original four-station Canvas2D analysis](chapter1-perception.html) overlays the Chapter 1 historical setting and Ye family events with S010's perception kernel. It distinguishes power from truth, historical observation from moral universals, and individual agency from coercive asymmetry. This is interpretive commentary, not reproduced narrative or a chapter substitute. [Evidence JSON](data/chapter1-perception.json).
