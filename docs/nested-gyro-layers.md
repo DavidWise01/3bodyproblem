@@ -84,3 +84,24 @@ TRIPLE_BARYCENTER != GALACTIC_DYNAMICAL_CENTER
 BARYCENTER_EXISTS != STABLE_CIRCULAR_ORBIT
 SCHEMATIC_MOTION != OBSERVED_ASTROMETRY
 ```
+
+
+## v0.3 — Scalar 0 registry (author-specified)
+
+```text
+                      {{0}}
+                        |
+                ADDRESS REGISTRY
+               /       |        \\
+        A SAG A*      B NIB       C SOL
+        001-122       123-245    246-368
+          122           123        123
+             \          |        /
+                368 CELLS TOTAL
+```
+
+**Exact inclusive partition:** A = [1,122] (122 cells); B = [123,245] (123 cells); C = [246,368] (123 cells). 0 is reserved as a scalar reference, not included in the count. There are no omitted or overlapping indices. `122+123+123=368`.
+
+The registry is authored symbolic geometry, not wavelength, celestial coordinates, mass or orbit. In particular, 0 is **not** itself evidence of a common gravitational center, and an assigned index does not confirm that Nib Sun exists. A mathematical barycenter remains a separate quantity derived from physical masses/positions.
+
+JSON source: `data/scalar0-registry.json`. Interactive selector: `three-centers.html`.
