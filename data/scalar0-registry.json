@@ -1,0 +1,60 @@
+{
+  "schema": "3body.scalar0.registry.v1",
+  "root": 0,
+  "root_meaning": "common abstract scalar reference; reserved; not a counted address, observed barycenter or fourth physical body",
+  "address_space": {
+    "first": 1,
+    "last": 368,
+    "count": 368
+  },
+  "partitions": [
+    {
+      "id": "A",
+      "name": "Sagittarius A*",
+      "start": 1,
+      "end": 122,
+      "count": 122,
+      "status": "observed black hole / address assignment authored by user",
+      "color": "#ffb979"
+    },
+    {
+      "id": "B",
+      "name": "Nib Sun",
+      "start": 123,
+      "end": 245,
+      "count": 123,
+      "status": "hypothetical object / no verified detection",
+      "color": "#d5adef"
+    },
+    {
+      "id": "C",
+      "name": "Earth Sun / Sol",
+      "start": 246,
+      "end": 368,
+      "count": 123,
+      "status": "observed star / address assignment authored by user",
+      "color": "#8de9d9"
+    }
+  ],
+  "lookup": "address 0 -> scalar root; 1..122 -> A; 123..245 -> B; 246..368 -> C; otherwise invalid",
+  "semantics": "The numeric ranges are a mnemonic/indexing model, not measurements of wavelength, angular position, radius or orbital phase",
+  "layer_model": "{{3x3}}^{{3}}>1 x 3 bodies",
+  "checks": {
+    "inclusive_counts": [
+      122,
+      123,
+      123
+    ],
+    "total": 368,
+    "no_gaps": true,
+    "no_overlaps": true,
+    "root_not_counted": true
+  },
+  "invariants": [
+    "SCALAR_ZERO != FOURTH_BODY",
+    "ADDRESS_DOMAIN != ASTRONOMICAL_COORDINATE",
+    "THREE_PARTITIONS != THREE_INDEPENDENT_WITNESSES",
+    "NIB_SUN != OBSERVED_OBJECT",
+    "MODEL_CENTER != VERIFIED_GRAVITATIONAL_CENTER"
+  ]
+}
