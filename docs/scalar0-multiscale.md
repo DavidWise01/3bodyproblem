@@ -1,42 +1,41 @@
-# Scalar 0 · semantic / somatic / linear multiscale v1
+# Scalar 0 · simultaneous coordinate field v2
 
-## Authored ratio
+## Correction to v1
 
-`13,800,000,000 : 76,000 : 1`. Exact hierarchy: outer / middle = `181578.94736842105...`; middle / unit = `76000`; outer / unit = `13.8 billion`.
+**Seconds are horizontal; arcseconds are vertical.** They are not switchable unit alternatives. This is a two-dimensional time–angle graph with one common scalar origin `(0,0)`:
 
-The source user permits either **one second** or **one arcsecond** at the unit floor. Preserve both as separate, switchable coordinate interpretations.
-
-## Unit cases
-
-- **Time:** 1 s; 76,000 s = 21 h 6 m 40 s; 13,800,000,000 s. This is not 13.8 billion years.
-- **Angle:** 1 arcsecond = 1/3600 degree; 76,000 arcseconds = 21.111111...°; 13.8 billion arcseconds = 3,833,333.333333...° = 10,648 complete turns plus a residual angle. Track winding number rather than silently wrapping to an indistinguishable circle state.
-- Neither case proves actual stellar orbital periods, distances, frequencies or a universal age relationship.
-
-## Three operations
+- Horizontal coordinate `x=t`, in seconds.
+- Vertical coordinate `y=θ`, in arcseconds.
+- Angular velocity `ω=dθ/dt`, in arcseconds per second; angular acceleration `d²θ/dt²`, in arcseconds per second squared.
+- `13,800,000,000 : 76,000 : 1` supplies user-defined dimensionless scale markers on both axes, each in its own unit. Neither the x nor y scale is itself a measured stellar orbit.
+- The default diagram uses logarithmic visual coordinates `log10(1+x)/log10(1+13.8e9)` independently on each axis to show all three reference marks. The underlying data are still in seconds and arcseconds, not log physical units.
+- A simple adjustable illustrative trajectory uses `θ(t)=ωt`. It is not a fit to Sag A*, Nib Sun or Sol, and its slope appears curved under log visual scaling even though it is linear in true physical coordinates.
+- Signed/negative angles, wraps and angular winding require separate handling in a later model. A full rotation is 1,296,000 arcseconds.
 
 ```text
-SEMANTIC : name, encode, classify, trace source ancestry
-SOMATIC  : interpret rotating physical bodies, layered states, fields
-LINEAR   : order, measure, iterate time or angular coordinates
+             Y: ARCSECONDS
+                   ^
+                   |
+ 13,800,000,000 ----|
+                   |
+        76,000 -----|
+                   |
+             1 -----|
+                   |
+             0 -----+----------------> X: SECONDS
+                   0  1   76,000   13.8B
 ```
 
-No fixed mapping of one operation to any one celestial body is assumed. Three operational channels are distinct from three named parent systems and three spectral mnemonic bands.
+The 368-address A/B/C partitions are semantic registry labels and are not equal to angular or temporal samples unless a mapping rule is later declared. `0` is a reference, not a fourth body.
 
-## Domains and spectral mnemonics
-
-A = Sag A* (001–122) / ultraviolet (violet display proxy); B = Nib Sun (123–245) / infrared (red display proxy), hypothetical; C = Sol (246–368) / visible (gold display proxy). Spectral labels are **metaphors**, not dominant-emission measurements or proof that the hypothetical Nib Sun exists.
+The existing physics integrator on `index.html` uses separate dimensionless Cartesian spatial positions. This page is a **time–angle analysis plane**, not that spatial dynamics simulation.
 
 ## Invariants
 
 ```text
-SECOND != ARCSECOND
-DIMENSIONLESS_RATIO != PHYSICAL_LAW
-SEMANTIC != SOMATIC != LINEAR
-REGISTRY_ADDRESS != ORBITAL_ANGLE
-ULTRAVIOLET_PROXY != UV_DETECTION
+X_SECONDS != Y_ARCSECONDS
+ONE_SECOND != ONE_ARCSECOND
+ADDRESS != ANGULAR_POSITION
+LOG_PLOT != LINEAR_PHYSICAL_MOTION
 NIB_SUN != DETECTED_OBJECT
 ```
-
-## Implementation
-
-Interactive log-compressed visual: [../scalar-scale.html](../scalar-scale.html). Machine readable scale: [../data/scalar0-multiscale.json](../data/scalar0-multiscale.json). The existing general three-body gravitational integrator is unchanged.
