@@ -66,3 +66,7 @@ See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-
 - Three channels: **semantic / somatic / linear**; not automatically assigned one-per-body.
 - [Interactive mode switch](scalar-scale.html) · [Machine-readable scale](data/scalar0-multiscale.json) · [Technical specification](docs/scalar0-multiscale.md).
 - Spectral mnemonics: Sag A* ultraviolet (violet proxy); hypothetical Nib Sun infrared (red proxy); Sol human-visible (gold proxy). Labels do not claim actual spectral dominance.
+
+
+## Axis correction (v2)
+**Seconds are X (horizontal); arcseconds are Y (vertical), simultaneously.** The prior unit-toggle interpretation is superseded. [Corrected time–angle Canvas2D](scalar-scale.html) · [v2 model JSON](data/scalar0-multiscale.json) · [axis specification](docs/scalar0-multiscale.md).
