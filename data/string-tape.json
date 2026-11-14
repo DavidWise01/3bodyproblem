@@ -1,5 +1,5 @@
 {
-  "schema": "3body.string-tape.v1",
+  "schema": "3body.string-tape.v2",
   "source": "user-authored exact ASCII tape",
   "literal": "-+---------------#-------------@-@--@---@----@-----@------@-------@--------@---------@----------@-----------@------------@-------------@--------------@---------------@----------------@-----------------@------------------@-------------------@--------------------@",
   "length": 262,
@@ -203,7 +203,7 @@
       "amino_name": "Valine"
     }
   ],
-  "biological_note": "The amino mapping is an ordered mnemonic assignment for 20 canonical amino acids, not a decoded protein, genetic code, protein folding prediction, or established string-theory physics.",
+  "biological_note": "Twenty mnemonic amino labels are attached to 20 size-growth steps; 21 at-signs denote 21 globule entities. No molecular structure, protein sequence, physical string theory or combat mechanism is inferred.",
   "coordinate_contract": {
     "x": "seconds (horizontal)",
     "y": "arcseconds (vertical)",
@@ -216,5 +216,350 @@
     "ASCII_ENCODING != PHYSICAL_STRING_THEORY",
     "AMINO_MNEMONIC != PROTEIN_FUNCTION",
     "SOURCE_TAPE != INDEPENDENT_BIOLOGICAL_WITNESS"
+  ],
+  "ontology": {
+    "at": "globule entity, not separator-only",
+    "hyphen": "size-growth measure for globule to the right of the run, authored mapping",
+    "plus": "positive operant",
+    "minus": "negative/structural operant depending on context",
+    "hash": "root/checkpoint mark independent of globules",
+    "globule_count": 21,
+    "amino_labels": "20 growth transitions, not globule identities",
+    "seed": "first @ is globule 0, 20 further @ globules have nominal size ranks 1..20",
+    "literal_boundaries": {
+      "contained": "{[()]}",
+      "breach": "{[(]}",
+      "contained_balanced": true,
+      "breach_balanced": false,
+      "breach_interpretation": "missing ) relative to contained configuration; unbalanced token, not physically validated membrane rupture"
+    },
+    "cellular_warfare": "abstract adversarial stress/defense interaction among symbolic globules; not a known biochemical process or evidence of biological combat",
+    "state_machine": [
+      "contained",
+      "pressured",
+      "breached",
+      "recovered"
+    ],
+    "invariants": [
+      "AT_SYMBOL == GLOBULE",
+      "INTERVAL_N == RIGHT_GLOBULE_SIZE_RANK_N",
+      "21_GLOBULES == SEED_PLUS_20_GROWTH_TRANSITIONS",
+      "BRACKET_BREACH != PROVEN_CELL_MEMBRANE_DAMAGE",
+      "AA_LABELS != MOLECULAR_COMPOSITION",
+      "MODEL_WARFARE != OBSERVED_BIOLOGY"
+    ]
+  },
+  "globules": [
+    {
+      "id": 0,
+      "index": 31,
+      "rank": 0,
+      "size_rank": 0,
+      "source_gap": 0,
+      "amino_link": null,
+      "role": "seed globule"
+    },
+    {
+      "id": 1,
+      "index": 33,
+      "rank": 1,
+      "size_rank": 1,
+      "source_gap": 1,
+      "amino_link": "Alanine",
+      "role": "grown globule"
+    },
+    {
+      "id": 2,
+      "index": 36,
+      "rank": 2,
+      "size_rank": 2,
+      "source_gap": 2,
+      "amino_link": "Arginine",
+      "role": "grown globule"
+    },
+    {
+      "id": 3,
+      "index": 40,
+      "rank": 3,
+      "size_rank": 3,
+      "source_gap": 3,
+      "amino_link": "Asparagine",
+      "role": "grown globule"
+    },
+    {
+      "id": 4,
+      "index": 45,
+      "rank": 4,
+      "size_rank": 4,
+      "source_gap": 4,
+      "amino_link": "Aspartic acid",
+      "role": "grown globule"
+    },
+    {
+      "id": 5,
+      "index": 51,
+      "rank": 5,
+      "size_rank": 5,
+      "source_gap": 5,
+      "amino_link": "Cysteine",
+      "role": "grown globule"
+    },
+    {
+      "id": 6,
+      "index": 58,
+      "rank": 6,
+      "size_rank": 6,
+      "source_gap": 6,
+      "amino_link": "Glutamine",
+      "role": "grown globule"
+    },
+    {
+      "id": 7,
+      "index": 66,
+      "rank": 7,
+      "size_rank": 7,
+      "source_gap": 7,
+      "amino_link": "Glutamic acid",
+      "role": "grown globule"
+    },
+    {
+      "id": 8,
+      "index": 75,
+      "rank": 8,
+      "size_rank": 8,
+      "source_gap": 8,
+      "amino_link": "Glycine",
+      "role": "grown globule"
+    },
+    {
+      "id": 9,
+      "index": 85,
+      "rank": 9,
+      "size_rank": 9,
+      "source_gap": 9,
+      "amino_link": "Histidine",
+      "role": "grown globule"
+    },
+    {
+      "id": 10,
+      "index": 96,
+      "rank": 10,
+      "size_rank": 10,
+      "source_gap": 10,
+      "amino_link": "Isoleucine",
+      "role": "grown globule"
+    },
+    {
+      "id": 11,
+      "index": 108,
+      "rank": 11,
+      "size_rank": 11,
+      "source_gap": 11,
+      "amino_link": "Leucine",
+      "role": "grown globule"
+    },
+    {
+      "id": 12,
+      "index": 121,
+      "rank": 12,
+      "size_rank": 12,
+      "source_gap": 12,
+      "amino_link": "Lysine",
+      "role": "grown globule"
+    },
+    {
+      "id": 13,
+      "index": 135,
+      "rank": 13,
+      "size_rank": 13,
+      "source_gap": 13,
+      "amino_link": "Methionine",
+      "role": "grown globule"
+    },
+    {
+      "id": 14,
+      "index": 150,
+      "rank": 14,
+      "size_rank": 14,
+      "source_gap": 14,
+      "amino_link": "Phenylalanine",
+      "role": "grown globule"
+    },
+    {
+      "id": 15,
+      "index": 166,
+      "rank": 15,
+      "size_rank": 15,
+      "source_gap": 15,
+      "amino_link": "Proline",
+      "role": "grown globule"
+    },
+    {
+      "id": 16,
+      "index": 183,
+      "rank": 16,
+      "size_rank": 16,
+      "source_gap": 16,
+      "amino_link": "Serine",
+      "role": "grown globule"
+    },
+    {
+      "id": 17,
+      "index": 201,
+      "rank": 17,
+      "size_rank": 17,
+      "source_gap": 17,
+      "amino_link": "Threonine",
+      "role": "grown globule"
+    },
+    {
+      "id": 18,
+      "index": 220,
+      "rank": 18,
+      "size_rank": 18,
+      "source_gap": 18,
+      "amino_link": "Tryptophan",
+      "role": "grown globule"
+    },
+    {
+      "id": 19,
+      "index": 240,
+      "rank": 19,
+      "size_rank": 19,
+      "source_gap": 19,
+      "amino_link": "Tyrosine",
+      "role": "grown globule"
+    },
+    {
+      "id": 20,
+      "index": 261,
+      "rank": 20,
+      "size_rank": 20,
+      "source_gap": 20,
+      "amino_link": "Valine",
+      "role": "grown globule"
+    }
+  ],
+  "growth_links": [
+    {
+      "from_globule": 0,
+      "to_globule": 1,
+      "size_step": 1,
+      "amino_mnemonic": "Alanine"
+    },
+    {
+      "from_globule": 1,
+      "to_globule": 2,
+      "size_step": 2,
+      "amino_mnemonic": "Arginine"
+    },
+    {
+      "from_globule": 2,
+      "to_globule": 3,
+      "size_step": 3,
+      "amino_mnemonic": "Asparagine"
+    },
+    {
+      "from_globule": 3,
+      "to_globule": 4,
+      "size_step": 4,
+      "amino_mnemonic": "Aspartic acid"
+    },
+    {
+      "from_globule": 4,
+      "to_globule": 5,
+      "size_step": 5,
+      "amino_mnemonic": "Cysteine"
+    },
+    {
+      "from_globule": 5,
+      "to_globule": 6,
+      "size_step": 6,
+      "amino_mnemonic": "Glutamine"
+    },
+    {
+      "from_globule": 6,
+      "to_globule": 7,
+      "size_step": 7,
+      "amino_mnemonic": "Glutamic acid"
+    },
+    {
+      "from_globule": 7,
+      "to_globule": 8,
+      "size_step": 8,
+      "amino_mnemonic": "Glycine"
+    },
+    {
+      "from_globule": 8,
+      "to_globule": 9,
+      "size_step": 9,
+      "amino_mnemonic": "Histidine"
+    },
+    {
+      "from_globule": 9,
+      "to_globule": 10,
+      "size_step": 10,
+      "amino_mnemonic": "Isoleucine"
+    },
+    {
+      "from_globule": 10,
+      "to_globule": 11,
+      "size_step": 11,
+      "amino_mnemonic": "Leucine"
+    },
+    {
+      "from_globule": 11,
+      "to_globule": 12,
+      "size_step": 12,
+      "amino_mnemonic": "Lysine"
+    },
+    {
+      "from_globule": 12,
+      "to_globule": 13,
+      "size_step": 13,
+      "amino_mnemonic": "Methionine"
+    },
+    {
+      "from_globule": 13,
+      "to_globule": 14,
+      "size_step": 14,
+      "amino_mnemonic": "Phenylalanine"
+    },
+    {
+      "from_globule": 14,
+      "to_globule": 15,
+      "size_step": 15,
+      "amino_mnemonic": "Proline"
+    },
+    {
+      "from_globule": 15,
+      "to_globule": 16,
+      "size_step": 16,
+      "amino_mnemonic": "Serine"
+    },
+    {
+      "from_globule": 16,
+      "to_globule": 17,
+      "size_step": 17,
+      "amino_mnemonic": "Threonine"
+    },
+    {
+      "from_globule": 17,
+      "to_globule": 18,
+      "size_step": 18,
+      "amino_mnemonic": "Tryptophan"
+    },
+    {
+      "from_globule": 18,
+      "to_globule": 19,
+      "size_step": 19,
+      "amino_mnemonic": "Tyrosine"
+    },
+    {
+      "from_globule": 19,
+      "to_globule": 20,
+      "size_step": 20,
+      "amino_mnemonic": "Valine"
+    }
   ]
 }
