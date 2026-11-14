@@ -1,5 +1,5 @@
 {
-  "schema": "3body.generational-power.v1",
+  "schema": "3body.generational-power.v2",
   "status": "mathematical address capacity, not realized biological growth",
   "alpha": {
     "generation": 0,
@@ -86,6 +86,54 @@
     "INFINITE_LIMIT != CONSTRUCTED_INFINITY",
     "HIGHER_DIMENSION != INDEPENDENT_WITNESS",
     "GROWTH != HOMEOSTASIS",
-    "PARENT_ADDRESS_PRESERVED_UNDER_NESTING"
-  ]
+    "PARENT_ADDRESS_PRESERVED_UNDER_NESTING",
+    "SELF_PLUS_9_PEERS == 10_TOTAL_UNITS",
+    "SQUARE_ADDRESS_CAPACITY != ABSORBED_CELL_COUNT",
+    "PROMOTION_CONSERVES_BASE_UNIT_ACCOUNTING",
+    "NINE_EATEN != NINETY_NINE_CREATED"
+  ],
+  "promotion": {
+    "name": "eat nine / retain one seed",
+    "threshold": 10,
+    "peer_absorptions_required": 9,
+    "definition": "A rank-g unit can be promoted to rank g+1 by aggregating ten rank-g equivalent units: self plus nine peers",
+    "equal_rank_only": true,
+    "required_base_units_at_rank_g": "10^g",
+    "absorption_cost_per_promotion": "9 peers of equal rank",
+    "mass_or_count_accounting": "10 rank-g units become one rank-(g+1) aggregate; number of underlying rank-0 units is conserved if no losses",
+    "address_interpretation": "10x10 at generation 1 is a power-capacity address envelope of 100 positions, not 100 physical units created from ten",
+    "rank_to_square_envelope": [
+      {
+        "generation": 0,
+        "underlying_seeds": 1,
+        "square_side": 1,
+        "square_capacity": 1
+      },
+      {
+        "generation": 1,
+        "underlying_seeds": 10,
+        "square_side": 10,
+        "square_capacity": 100
+      },
+      {
+        "generation": 2,
+        "underlying_seeds": 100,
+        "square_side": 100,
+        "square_capacity": 10000
+      },
+      {
+        "generation": 3,
+        "underlying_seeds": 1000,
+        "square_side": 1000,
+        "square_capacity": 1000000
+      }
+    ],
+    "kinetic_modes": [
+      "engulf",
+      "retain",
+      "digest",
+      "symbiosis"
+    ],
+    "warning": "Eating is a symbolic merge operator; energy balance, physical mass, real cellular digestion and biological viability are not specified."
+  }
 }
