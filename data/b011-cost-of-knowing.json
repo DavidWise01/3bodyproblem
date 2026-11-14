@@ -1,0 +1,44 @@
+{
+  "schema": "3body.b011.v1",
+  "title": "The Cost of Knowing",
+  "work": "The Three-Body Problem by Liu Cixin, translated by Ken Liu",
+  "kind": "original thematic cipher companion; not a reconstruction of the novel",
+  "principle": "OBSERVATION != DISCLOSURE",
+  "states": [
+    {
+      "id": "observe",
+      "token": "@ ?",
+      "claim": "Detecting or estimating an actor need not disclose your location"
+    },
+    {
+      "id": "listen",
+      "token": "? → @",
+      "claim": "Receiving a signal is not transmitting one; source must still be checked"
+    },
+    {
+      "id": "transmit",
+      "token": "@ → ?",
+      "claim": "Outbound signaling actively discloses an intended message; no receiving or reply is guaranteed"
+    },
+    {
+      "id": "warning",
+      "token": "! → @",
+      "claim": "A warning is testimony, not a guaranteed verified forecast"
+    },
+    {
+      "id": "quiet",
+      "token": "1:1",
+      "claim": "Homeostatic non-engagement is a legitimate choice"
+    }
+  ],
+  "invariants": [
+    "OBSERVE != REVEAL",
+    "LISTEN != TRANSMIT",
+    "SEND != RECEIVE",
+    "WARNING != VERIFIED_FORECAST",
+    "PERCEPTION != PERFECT_INFORMATION",
+    "SILENCE != IGNORANCE"
+  ],
+  "score": "illustrative only: clamp(10 + (transmitted?50:0) + exposure/3 - caution/4, 0, 100)",
+  "boundary": "The score is not a measured probability of extraterrestrial interception. Trisolaran triple-star system is not the separate Sag A*/Nib Sun/Sol mnemonic."
+}
