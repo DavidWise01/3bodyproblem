@@ -90,3 +90,7 @@ The `@` marks are **globules** (21 entities), not merely separators. Gap lengths
 
 ## S007 · Dot order and generational power limits
 Four address orders `. .. ... ....` represent 1D through 4D symbolic grids, while generations increase each side length by a factor of ten: `L=10^g`, capacity `N=10^(g*d)`. Alpha is G0 (one address); Omega is the formal unbounded limit, not an allocated infinity. This models capacity independently of living globule count, homeostasis, and the physical sky. [Interactive Canvas2D](generation-power.html) · [data](data/generation-power.json) · [spec](docs/generation-power.md).
+
+
+## S008 · Eat nine, promote generation
+A unit `@` absorbs **nine equal-rank peers**; its ten contributing units form a promoted aggregate. The next rank has a larger `10^g × 10^g` potential address envelope, while actual underlying rank-zero mass equivalents grow by 10 each generation. **10 contributors ≠ 100 material units**. [Engulfment Canvas2D](generation-engulf.html) · [revised generation registry](data/generation-power.json) · [spec](docs/generation-power.md).
