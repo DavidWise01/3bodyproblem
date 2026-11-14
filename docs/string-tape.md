@@ -85,3 +85,37 @@ MORPHOLOGY != PROVEN_BIOLOGY
 ```
 
 Explore the [animated globule and boundary lab](../globule-lab.html), based on the exact [string-tape JSON](../data/string-tape.json).
+
+
+## S006 — Homeostatic response grammar (correction)
+
+The author defines **homeostasis as `1:1`**. Stress may select one of three distinct behaviors: **fight `[n:n]`**, **flight `(n:n)`**, and **hide `{n:n}`**. Here n:n represents a symbolic variable-scale interaction of two sides; there is no observed organism count or physically calibrated exchange ratio. The earlier `{[()]}` and `{[(]}` expressions remain morphology/boundary-state encodings, not replacements for this behavioral grammar.
+
+```text
+                     1:1
+                      |
+                 OBSERVE STRESS
+                      |
+                  SELECT STATE
+                     /|\\
+               [n:n] (n:n) {n:n}
+               FIGHT FLIGHT HIDE
+                     \\|/
+                MEASURE RESPONSE
+                      |
+                 BALANCE? -> 1:1
+```
+
+**Proposed deterministic toy model:** energy, boundary integrity, exposure, separation and pressure use normalized 0..100 scores. The controller can choose automatically or be overridden. Fight spends energy defending, flight spends energy separating, hide spends less energy reducing exposure, and unpressured balance tends to recover reserve. No emergent decision or experiment is claimed; these dynamics are authored rules designed to be inspected and challenged.
+
+**Non-equivalence:** maintaining homeostasis does not imply inactivity, and allocating 1:1 does not imply an experimentally measured concentration or energy flow. Restore of a score does not imply restored organism viability.
+
+- [Animated Homeostasis Lab](../homeostasis-lab.html)
+- [Versioned model](../data/homeostasis.json)
+
+```text
+HOMEOSTASIS != INACTIVITY
+FIGHT != FLIGHT != HIDE
+NOTATION != BIOLOGICAL_VALIDATION
+ENERGY_COST != FREE_RECOVERY
+```
