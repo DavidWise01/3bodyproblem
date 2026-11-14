@@ -70,3 +70,7 @@ See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-
 
 ## Axis correction (v2)
 **Seconds are X (horizontal); arcseconds are Y (vertical), simultaneously.** The prior unit-toggle interpretation is superseded. [Corrected time–angle Canvas2D](scalar-scale.html) · [v2 model JSON](data/scalar0-multiscale.json) · [axis specification](docs/scalar0-multiscale.md).
+
+
+## Scalar graph forms (v3)
+The [Canvas2D scalar field](scalar-scale.html) includes four selectable forms: `Scalar 0 --------`, `Scalar 1 @`, `Scalar 2 -@`, and `Scalar 3 --@--#`. These are exact user-given glyphs with provisional topology meanings; the axes remain seconds (horizontal) and arcseconds (vertical), with the 13.8B:76,000:1 reference scale.
