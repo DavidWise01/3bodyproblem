@@ -1,0 +1,91 @@
+{
+  "schema": "3body.generational-power.v1",
+  "status": "mathematical address capacity, not realized biological growth",
+  "alpha": {
+    "generation": 0,
+    "linear_side": 1,
+    "origin": "1x1",
+    "addresses_per_order": 1
+  },
+  "base": 10,
+  "dimensions": [
+    {
+      "dots": ".",
+      "order": 1,
+      "label": "string"
+    },
+    {
+      "dots": "..",
+      "order": 2,
+      "label": "square"
+    },
+    {
+      "dots": "...",
+      "order": 3,
+      "label": "cube"
+    },
+    {
+      "dots": "....",
+      "order": 4,
+      "label": "hypercube"
+    }
+  ],
+  "generations": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "definition": {
+    "axis_length": "10^generation",
+    "address_capacity": "(10^generation)^order = 10^(generation*order)",
+    "next_generation_capacity_factor": "10^order",
+    "same_generation_next_order_capacity_factor": "10^generation",
+    "omega": "formal limit as generation -> infinity, never an instantiated finite grid"
+  },
+  "examples": {
+    "gen0": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "gen1": [
+      10,
+      100,
+      1000,
+      10000
+    ],
+    "gen2": [
+      100,
+      10000,
+      1000000,
+      100000000
+    ],
+    "gen3": [
+      1000,
+      1000000,
+      1000000000,
+      1000000000000
+    ]
+  },
+  "semantics": {
+    "dot_count": "addressing order / number of independent axes",
+    "generation": "integer power-of-ten expansion per axis",
+    "occupied_nodes": "a separate sparse value; must not be inferred from address capacity",
+    "cell_form": "() [] {} glyph states remain independent of geometry",
+    "behavior": "1:1, [n:n], (n:n), {n:n} remains separate",
+    "lineage": "child generation preserves explicit parent address; coordinate scaling alone is not provenance"
+  },
+  "invariants": [
+    "GENERATION_POWER != MEASURED_PHYSICAL_SIZE",
+    "ADDRESS_CAPACITY != ACTIVE_POPULATION",
+    "INFINITE_LIMIT != CONSTRUCTED_INFINITY",
+    "HIGHER_DIMENSION != INDEPENDENT_WITNESS",
+    "GROWTH != HOMEOSTASIS",
+    "PARENT_ADDRESS_PRESERVED_UNDER_NESTING"
+  ]
+}
