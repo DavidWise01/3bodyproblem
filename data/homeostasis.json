@@ -1,0 +1,64 @@
+{
+  "schema": "3body.globule.homeostasis.v1",
+  "meaning": "Author-defined symbolic homeostatic control model",
+  "baseline": "1:1",
+  "states": [
+    {
+      "id": "balance",
+      "token": "1:1",
+      "name": "HOMEOSTASIS",
+      "intent": "balanced exchange",
+      "boundary": "dynamic equilibrium, not inactivity"
+    },
+    {
+      "id": "fight",
+      "token": "[n:n]",
+      "name": "FIGHT",
+      "intent": "defend boundary under pressure",
+      "boundary": "square enclosure, exert effort, spend energy"
+    },
+    {
+      "id": "flight",
+      "token": "(n:n)",
+      "name": "FLIGHT",
+      "intent": "move to lower exposure",
+      "boundary": "parenthetical mobile mode, spend energy"
+    },
+    {
+      "id": "hide",
+      "token": "{n:n}",
+      "name": "HIDE",
+      "intent": "reduce exposure by enclosure",
+      "boundary": "braced protected mode, spend energy"
+    }
+  ],
+  "n_semantics": "n:n is a variable exchange/encounter size for two interacting sides; n is a symbolic population or intensity count, not a measured organism count",
+  "variables": {
+    "energy": "0..100 normalized reserve",
+    "integrity": "0..100 normalized boundary health",
+    "exposure": "0..100 normalized contact with threat",
+    "distance": "0..100 relative separation",
+    "pressure": "0..100 environmental stress",
+    "n": "1..20 interaction scale tied illustratively to globule growth rank"
+  },
+  "transition_logic": {
+    "baseline": "pressure<=10 and integrity>=60 and energy>=45 -> homeostasis, unless manually forced",
+    "fight": "active defense; higher energy cost, maintains proximity; greater pressure mitigation",
+    "flight": "moves away from stress; increases distance; moderate energy cost",
+    "hide": "lowers exposure; slower recovery; minimal energy cost",
+    "recovery": "energy recovers under low pressure; integrity recovers when pressure is low"
+  },
+  "invariants": [
+    "HOMEOSTASIS != INACTIVITY",
+    "FIGHT != FLIGHT != HIDE",
+    "NOTATION != VALIDATED_CELL_BIOLOGY",
+    "ACTION_COST != FREE_ENERGY",
+    "N_N != OBSERVED_POPULATION",
+    "RESTORED_BALANCE != REPRODUCED_TRAJECTORY"
+  ],
+  "provenance": {
+    "source": "User-specified control syntax 1:1, [n:n], (n:n), {n:n}",
+    "simulation": "Original deterministic illustrative toy model, not cellular measurements",
+    "tape": "21 @ globules with 20 growth steps retained unchanged"
+  }
+}
