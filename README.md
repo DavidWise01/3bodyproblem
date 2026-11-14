@@ -94,3 +94,7 @@ Four address orders `. .. ... ....` represent 1D through 4D symbolic grids, whil
 
 ## S008 · Eat nine, promote generation
 A unit `@` absorbs **nine equal-rank peers**; its ten contributing units form a promoted aggregate. The next rank has a larger `10^g × 10^g` potential address envelope, while actual underlying rank-zero mass equivalents grow by 10 each generation. **10 contributors ≠ 100 material units**. [Engulfment Canvas2D](generation-engulf.html) · [revised generation registry](data/generation-power.json) · [spec](docs/generation-power.md).
+
+
+## S009 Highlander correction supersedes equal-rank merge
+The same original `@` survives every rank. It eats **nine additional ordinary peers per generation**, rather than merging with nine already-promoted peers. G1 = 9 absorbed + 1 seed, G2 = 18 absorbed + 1, G3 = 27 absorbed + 1. In general total units = `1 + 9*g + current_tier_absorptions`, while address power class side = `10^g`. [Interactive Highlander model](generation-engulf.html) · [v3 data](data/generation-power.json) · [spec](docs/generation-power.md).
