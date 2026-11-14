@@ -106,3 +106,7 @@ A `10×10` globule can recognize a `100×100` opponent as a risk; a larger oppon
 
 ## Chapter 1 · The Madness Years — perception companion
 [Original four-station Canvas2D analysis](chapter1-perception.html) overlays the Chapter 1 historical setting and Ye family events with S010's perception kernel. It distinguishes power from truth, historical observation from moral universals, and individual agency from coercive asymmetry. This is interpretive commentary, not reproduced narrative or a chapter substitute. [Evidence JSON](data/chapter1-perception.json).
+
+
+## Whole-book cipher lens (10 thematic stations)
+[Whole-Book Cipher Canvas2D Companion](whole-book-cipher.html) · [10-station structured JSON](data/whole-book-cipher.json). Original analytic motifs across the entire first novel: authority vs truth, environmental homeostasis, signal risk, false perception, instability, prediction limits, factions, information asymmetry, scientific interference, and resilient survival. Each is interpreted with `@`, `()`, `[]`, `{}`, `1:1`, `[n:n]`, `(n:n)`, `{n:n}`, `G`, and evidence lineage. **Not a reproduction or comprehensive retelling.** The novel's Trisolaran triple-star system is distinct from the author's separate Sag A* / Nib Sun / Sol mnemonic.
