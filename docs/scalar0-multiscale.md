@@ -39,3 +39,21 @@ ADDRESS != ANGULAR_POSITION
 LOG_PLOT != LINEAR_PHYSICAL_MOTION
 NIB_SUN != DETECTED_OBJECT
 ```
+
+
+## v3 · Four user-defined scalar graph forms
+
+The user's exact graph options are preserved as four ordered states:
+
+```text
+Scalar 0  --------
+Scalar 1  @
+Scalar 2  -@
+Scalar 3  --@--#
+```
+
+A literal hyphen is a connecting stroke, `@` is an anchor symbol, and `#` is a different endpoint/checkpoint symbol. This is **display topology**, not a claim about the physics or about the provenance of any `#` witness. These meanings are provisional until defined by the model's owner. The interface's sample anchor positions (1, 76,000, and 13.8 billion) are illustrative scale ticks, not derived from the glyphs.
+
+**All modes share the same axes**: x = seconds (horizontal), y = arcseconds (vertical). Scalar 0 remains the reserved reference zero in the registry and the name of the first display state; no extra astronomical object is introduced.
+
+JSON: `data/scalar0-multiscale.json`; interactive graph: `scalar-scale.html`.
