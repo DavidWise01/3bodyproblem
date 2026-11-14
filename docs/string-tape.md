@@ -54,3 +54,34 @@ OBSERVED_BIOCHEMISTRY != NUMERICAL_COINCIDENCE
 - `data/string-tape.json`: exact literal and parser output
 - `string-tape.html`: sprite-animated Canvas2D reader and user-selected amino intervals
 - `docs/string-tape.md`: interpretation contract and caveats
+
+
+## S005 — correction: the @ are globules
+
+The author's intended ontology is that **each `@` is one globule**. The exact tape therefore has **21 globules**, the first a size-rank-zero seed and the following twenty globules assigned nominal ranks 1 through 20 according to the length of the immediately preceding hyphen run. Those hyphen runs are **size-growth measures**, not merely empty distances. This size assignment is an explicit authored convention that lets the growing ladder be tested without altering the literal source string. The 20 standard-amino-acid labels of S004 become mnemonics for the **twenty size transitions**, not literal contents of the globules.
+
+```text
+-+---------------#-------------@ - @ -- @ --- @ ... -------------------- @
+                               G0  G1   G2     G3                          G20
+                               0   1    2      3                           20
+                              SEED         GROWTH SIZE RANK
+```
+
+## Boundary grammar: containment versus interruption
+
+- `{[()]}` = fully paired nested boundaries, **contained** in the authored symbolism (brace, box, toroidal parenthesis).
+- `{[(]}` = **unbalanced** string: the `(` is not closed before the `]` and `}`; it symbolizes a breached/interrupted containment state rather than a valid nested balanced grammar.
+- A computer parser must not pretend both are equally balanced; it should preserve the literal damaged form as evidence of the interruption.
+- **Cellular warfare** is modeled as a symbolic contest between applied pressure and boundary integrity: `contained → pressured → breached → recovered`. This is an abstract state machine, not a depiction of actual cells attacking, protein folding, or validated microbiology.
+
+```text
+@ = GLOBULE
+--- = SIZE OPERATOR / THREE UNITS
+{{ i }} = OBSERVE
+{[()]} = CONTAINED
+{[(]} = INTERRUPTED / BREACHED
+SIZE_RANK != PHYSICAL_RADIUS_WITHOUT_UNIT
+MORPHOLOGY != PROVEN_BIOLOGY
+```
+
+Explore the [animated globule and boundary lab](../globule-lab.html), based on the exact [string-tape JSON](../data/string-tape.json).
