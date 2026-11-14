@@ -1,0 +1,32 @@
+{
+  "schema": "3body.perception-warfare.v1",
+  "provenance": "Author's symbolic model: 10x10 vs 100x100 perception and optional avoidance; 99 equal-rank units can be an alternative, much costlier aggregation goal.",
+  "rank_example": {
+    "actor_generation": 1,
+    "actor_class": "10x10",
+    "opponent_generation": 2,
+    "opponent_class": "100x100",
+    "linear_power_ratio": 10,
+    "capacity_ratio": 100,
+    "warning": "Power is an address class and not physical combat strength."
+  },
+  "difference_between_goals": {
+    "s009_promotion": "nine newly absorbed ordinary peer-equivalents per generation",
+    "bulk_aggregation": "an equal unit plus 99 others forms a collection of 100 equal-sized units; not the automatic promotion rule"
+  },
+  "decision_hypotheses": {
+    "fight": "only if perceived threat and available energy justify risk",
+    "flight": "favored when counterpart is estimated far larger and disengagement feasible",
+    "hide": "favored if movement is costly or exposure can be reduced",
+    "balance": "favored if there is no reason to engage",
+    "engulfment": "never required simply because a target exists"
+  },
+  "invariants": [
+    "PERCEPTION_BEFORE_ACTION",
+    "POWER_DOES_NOT_REQUIRE_ATTACK",
+    "PROMOTION_IS_OPTIONAL",
+    "LOWER_RANK_CAN_REFUSE_LOPSIDED_BATTLE",
+    "LARGER_RANK_CAN_REFUSE_UNPROFITABLE_HUNT",
+    "UNSURE_ESTIMATE_NOT_CERTAIN_OBSERVATION"
+  ]
+}
