@@ -82,3 +82,7 @@ The [interactive string-tape Canvas2D lab](string-tape.html) implements the auth
 
 ## S005 · Globule ontology and boundary stress
 The `@` marks are **globules** (21 entities), not merely separators. Gap lengths 1–20 encode successive *size ranks* of globules G1–G20 from seed G0; the old 20 amino labels attach to growth transitions, not globule identities. The contained `{[()]}` and deliberately interrupted `{[(]}` are selectable symbolic boundary states. [Canvas2D globule lab](globule-lab.html) · [revised source tape model](data/string-tape.json) · [spec](docs/string-tape.md). Cellular warfare here is an abstract stress model, not established biological behavior.
+
+
+## S006 · Homeostasis control grammar
+**`1:1` is balanced exchange**, with stress responses **fight `[n:n]`**, **flight `(n:n)`**, and **hide `{n:n}`**. These are authored symbolic states, not observations of cells. Run the [Canvas2D homeostasis lab](homeostasis-lab.html) with automatic or manual controls, state trace and exported witness data. [Model JSON](data/homeostasis.json) · [Spec](docs/string-tape.md).
