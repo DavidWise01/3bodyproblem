@@ -37,3 +37,41 @@ FINITE_GRID != ACTUAL_INFINITY
 ```
 
 Use [Generational Power Canvas](../generation-power.html) and [JSON](../data/generation-power.json).
+
+
+## S008 — Generational power by engulfing nine peers
+
+**Correction:** The power increase is not merely a larger empty grid. The user specifies an **engulfment promotion operator**: start with one `1×1` alpha unit and **eat nine peer units** to obtain ten total. The resulting aggregate is **promoted to the `10×10` power class**. The `10×10` label is a two-axis *address capacity* (100 possible slots), not a claim that ten source cells created one hundred units of physical mass. Therefore promotion can be consistent with conservation accounting.
+
+```text
+  1 seed  + 9 peers  = 10 peer-equivalent units
+        \\     |     /
+            ENGULF
+               |
+            PROMOTE
+               |
+     G1 / 10×10 ADDRESS CLASS
+               |
+    source mass equivalents = 10
+    potential address slots = 100
+```
+
+To continue a **strict equal-rank merge** rule, one G1 unit plus nine other G1 units yields G2 (100×100). It then contains the equivalent of 100 G0 seeds, rather than just 19. Similarly G3 contains 1,000 base seeds. This is a *chosen recursive formalization*; if rank promotion instead uses nine raw G0 units at every level, that is a different accumulation law and must be given a different operator.
+
+| Rank | Self + peers at this step | Underlying G0 equivalents | Square-power address capacity |
+|---|---|---:|---:|
+| G0 | 1 seed | 1 | 1 |
+| G1 | 1 G0 + 9 G0 | 10 | 100 |
+| G2 | 1 G1 + 9 G1 | 100 | 10,000 |
+| G3 | 1 G2 + 9 G2 | 1,000 | 1,000,000 |
+
+The prior `.`, `..`, `...`, `....` dimensional-order addressing remains independent. It governs how **potential addresses** grow for a given promoted generation. A globule's ability to eat, fight, flee, hide, retain, or recover remains a separate response state, not a consequence of its address class.
+
+```text
+ABSORPTION != DIGESTION
+TEN_CONTRIBUTORS != ONE_HUNDRED_MASS_UNITS
+POWER_CLASS != OCCUPIED_ADDRESSES
+PROMOTION != GUARANTEED_HOMEOSTASIS
+```
+
+Interactive demonstration: [Engulfment Promotion](../generation-engulf.html).
