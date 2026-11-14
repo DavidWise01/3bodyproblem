@@ -1,5 +1,5 @@
 {
-  "schema": "3body.scalar0.multiscale.v1",
+  "schema": "3body.scalar0.multiscale.v2",
   "root": 0,
   "ratio": {
     "outer": 13800000000,
@@ -8,7 +8,7 @@
     "outer_to_mid": 181578.94736842104,
     "mid_to_unit": 76000,
     "outer_to_unit": 13800000000,
-    "dimensions": "user-specified scalar hierarchy; units selectable, not an observed physical cosmological ratio"
+    "dimensions": "same dimensionless scale markers 1, 76000, 13800000000 applied to BOTH axes, with different units"
   },
   "interpretive_channels": [
     "semantic",
@@ -21,22 +21,8 @@
     "linear": "ordered index, time/angle axis, unit-consistent calculation"
   },
   "unit_modes": {
-    "second": {
-      "base": "1 second",
-      "middle_seconds": 76000,
-      "middle_clock": "21h 06m 40s",
-      "outer_seconds": 13800000000,
-      "notes": "Pure clock duration interpretation; does not mean age of universe in years."
-    },
-    "arcsecond": {
-      "base": "1 arcsecond",
-      "middle_arcsec": 76000,
-      "middle_degrees": 21.11111111111111,
-      "outer_arcsec": 13800000000,
-      "outer_degrees": 3833333.3333333335,
-      "outer_full_revolutions": 10648,
-      "notes": "Angular unit; modulo 360° collapses full turns unless winding count retained. Distinct from temporal seconds."
-    }
+    "deprecated": true,
+    "reason": "Seconds and arcseconds are not switchable unit modes; they are simultaneously orthogonal coordinates."
   },
   "registry_bands": [
     {
@@ -79,7 +65,32 @@
     "DOMAIN_ADDRESS != ANGULAR_COORDINATE",
     "LOG_VISUALIZATION != LINEAR_DISTANCE",
     "HYPOTHETICAL_NIB_SUN != OBSERVED_OBJECT",
-    "SEMANTIC != SOMATIC != LINEAR"
+    "SEMANTIC != SOMATIC != LINEAR",
+    "X_SECONDS != Y_ARCSECONDS",
+    "AXIS_LABEL != PHYSICAL_TRAJECTORY",
+    "DERIVATIVE_DTHETA_DT_HAS_UNITS_ARCSECONDS_PER_SECOND"
   ],
-  "status": "author-defined multiscale mnemonic; no astronomical fit"
+  "status": "author-defined multiscale mnemonic; no astronomical fit",
+  "axes": {
+    "x": {
+      "name": "time",
+      "unit": "second",
+      "orientation": "horizontal"
+    },
+    "y": {
+      "name": "angle",
+      "unit": "arcsecond",
+      "orientation": "vertical"
+    },
+    "simultaneous": true,
+    "coordinate_form": "(time_seconds,angle_arcseconds)",
+    "derived_velocity_unit": "arcseconds per second",
+    "display": "log-scaled reference grid due to 13.8-billion range"
+  },
+  "example_trajectory": {
+    "status": "illustrative only",
+    "definition": "theta(t)=76000*(t/76000)=t arcseconds",
+    "angular_velocity_arcsec_per_second": 1,
+    "not_observation": true
+  }
 }
