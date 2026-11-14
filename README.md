@@ -59,3 +59,10 @@ See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-
 - `122 + 123 + 123 = 368`, no gaps or overlaps.
 - [Registry JSON](data/scalar0-registry.json) · [interactive visual selector](three-centers.html)
 - These are author-defined addresses, not validated physical orbital coordinates.
+
+
+## Scalar 0 · multiscale channels
+- Ratio: `13,800,000,000 : 76,000 : 1` in optional seconds or arcseconds (different units, never interchangeable).
+- Three channels: **semantic / somatic / linear**; not automatically assigned one-per-body.
+- [Interactive mode switch](scalar-scale.html) · [Machine-readable scale](data/scalar0-multiscale.json) · [Technical specification](docs/scalar0-multiscale.md).
+- Spectral mnemonics: Sag A* ultraviolet (violet proxy); hypothetical Nib Sun infrared (red proxy); Sol human-visible (gold proxy). Labels do not claim actual spectral dominance.
