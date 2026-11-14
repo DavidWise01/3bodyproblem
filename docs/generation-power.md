@@ -75,3 +75,31 @@ PROMOTION != GUARANTEED_HOMEOSTASIS
 ```
 
 Interactive demonstration: [Engulfment Promotion](../generation-engulf.html).
+
+
+## S009 correction — Highlander: nine MORE at each generation
+
+This section supersedes the S008 **equal-rank merger** rule. In the user's Highlander-style model, one continuing `@` survivor absorbs nine additional rank-zero peer-equivalents to advance from G0 to G1. After that, the **same original survivor must eat nine more** to advance from G1 to G2. There is no requirement to acquire nine G1 peers, and no separate G2 successor replaces the survivor.
+
+At completed generation `g`:
+
+```text
+additional units absorbed = 9 * g
+survivor unit + absorbed = 1 + 9 * g
+power-class side length = 10 ^ g
+2D address envelope = 10 ^ (2*g)
+```
+
+| Generation | New kills this tier | Cumulative absorbed | Total underlying units | Power envelope |
+|---|---:|---:|---:|---|
+| G0 | 0 | 0 | 1 | 1×1 |
+| G1 | 9 | 9 | 10 | 10×10 |
+| G2 | 9 more | 18 | 19 | 100×100 |
+| G3 | 9 more | 27 | 28 | 1000×1000 |
+| G4 | 9 more | 36 | 37 | 10000×10000 |
+
+The difference between **power class**, **accumulated units**, **physical mass** and **occupancy** remains explicit. Symbolic absorbed-unit accounting neither proves conservation of biological biomass under digestion nor supplies an energy budget.
+
+A monotonically appended event log should record each absorption with the current survivor identity and generation. Promotion occurs only after the ninth new absorption in that tier. This is a deterministic toy rule, not an assertion that organisms literally operate by this mechanism.
+
+**S009 invariant:** `SAME_SURVIVOR + NINE_NEW_PEERS -> NEXT_POWER`.
