@@ -117,5 +117,90 @@
       "NIB_SUN != OBSERVED_OBJECT",
       "MODEL_CENTER != VERIFIED_GRAVITATIONAL_CENTER"
     ]
+  },
+  "multiscale": {
+    "schema": "3body.scalar0.multiscale.v1",
+    "root": 0,
+    "ratio": {
+      "outer": 13800000000,
+      "mid": 76000,
+      "unit": 1,
+      "outer_to_mid": 181578.94736842104,
+      "mid_to_unit": 76000,
+      "outer_to_unit": 13800000000,
+      "dimensions": "user-specified scalar hierarchy; units selectable, not an observed physical cosmological ratio"
+    },
+    "interpretive_channels": [
+      "semantic",
+      "somatic",
+      "linear"
+    ],
+    "channels_meaning": {
+      "semantic": "identity/names/claims and source provenance",
+      "somatic": "physical states, rotation, stress and field coupling as distinct hypotheses",
+      "linear": "ordered index, time/angle axis, unit-consistent calculation"
+    },
+    "unit_modes": {
+      "second": {
+        "base": "1 second",
+        "middle_seconds": 76000,
+        "middle_clock": "21h 06m 40s",
+        "outer_seconds": 13800000000,
+        "notes": "Pure clock duration interpretation; does not mean age of universe in years."
+      },
+      "arcsecond": {
+        "base": "1 arcsecond",
+        "middle_arcsec": 76000,
+        "middle_degrees": 21.11111111111111,
+        "outer_arcsec": 13800000000,
+        "outer_degrees": 3833333.3333333335,
+        "outer_full_revolutions": 10648,
+        "notes": "Angular unit; modulo 360° collapses full turns unless winding count retained. Distinct from temporal seconds."
+      }
+    },
+    "registry_bands": [
+      {
+        "id": "A",
+        "name": "Sagittarius A*",
+        "domain": [
+          1,
+          122
+        ],
+        "band": "ultraviolet",
+        "mode": "mnemonic only; not a measured dominant emission",
+        "color": "#a88af9"
+      },
+      {
+        "id": "B",
+        "name": "Nib Sun",
+        "domain": [
+          123,
+          245
+        ],
+        "band": "infrared",
+        "mode": "hypothetical companion, not detected",
+        "color": "#f08168"
+      },
+      {
+        "id": "C",
+        "name": "Earth Sun / Sol",
+        "domain": [
+          246,
+          368
+        ],
+        "band": "visible",
+        "mode": "human-visible mnemonic, not exclusive stellar emission",
+        "color": "#ffd07d"
+      }
+    ],
+    "invariants": [
+      "ONE_SECOND != ONE_ARCSECOND",
+      "UNIT_SCALE != PHYSICAL_ORBITAL_LAW",
+      "DOMAIN_ADDRESS != ANGULAR_COORDINATE",
+      "LOG_VISUALIZATION != LINEAR_DISTANCE",
+      "HYPOTHETICAL_NIB_SUN != OBSERVED_OBJECT",
+      "SEMANTIC != SOMATIC != LINEAR"
+    ],
+    "status": "author-defined multiscale mnemonic; no astronomical fit"
   }
 }
