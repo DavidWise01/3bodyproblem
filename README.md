@@ -49,3 +49,13 @@ See [Core / Mantle / Crust and Fields](docs/nested-gyro-layers.md) for the user-
 
 ## Named three-parent system
 [Three-centers visual schematic](three-centers.html) and [source-status JSON](data/three-centers.json) specify Sagittarius A*, hypothetical Nib Sun and Sol with candidate [?] barycenter, separate from actual Milky Way dynamics. The original gravity simulator is unchanged.
+
+
+## Scalar 0 partition (v0.3)
+- Root `0` is reserved.
+- Sag A*: indices `1–122` (122 cells)
+- Nib Sun (hypothetical): `123–245` (123 cells)
+- Earth Sun / Sol: `246–368` (123 cells)
+- `122 + 123 + 123 = 368`, no gaps or overlaps.
+- [Registry JSON](data/scalar0-registry.json) · [interactive visual selector](three-centers.html)
+- These are author-defined addresses, not validated physical orbital coordinates.
